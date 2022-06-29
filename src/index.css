@@ -234,3 +234,16 @@ img {
 appcues-container:not(.fullscreen)[data-pattern-type='shorty'][data-position^='bottom'] {
   bottom: 0px !important;
 }
+
+.appcues-widget-list li {
+  list-style-type: circle;
+  list-style-position: inside;
+}
+
+.appcues-nps{
+  border: 5px solid black;
+}
+
+#quantitative-question-text {
+  border: 5px solid black;
+}

@@ -25,7 +25,8 @@ const App = () => {
 
   window.Appcues.identify(userId, { // feel free to add in any user properties here
     role: "tester",
-    signupDate: currentTime
+    signupDate: currentTime,
+    testProp: null
   })
 
   window.Appcues.on("all", function(name, payload) {
@@ -39,6 +40,8 @@ const App = () => {
     position: "right"
   })
   
+  window.Appcues.track("kennedys event")
+
   return ( 
     <BrowserRouter> 
       <AppcuesRouter /> 
