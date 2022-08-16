@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Route, Switch, useLocation } from 'react-router-dom';
 
 import Home from "./Home";
@@ -16,7 +16,7 @@ new components to the app, you'll want to include them as a <Route> as seen belo
 */
 
 const AppcuesRouter = () => {
-  const location = useLocation(); // installation using React hooks
+  // const location = useLocation(); // installation using React hooks
 
   // useEffect(() => {
   //   window.Appcues.page();

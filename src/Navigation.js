@@ -15,7 +15,6 @@ const Navigation = () => (
     <Link to="/settings">Settings</Link>
     <Link to="/login">Login</Link>
     <div id="launchpad"></div> 
-    <div><img src="/resources/18099160511644664430.svg"></img></div>
   </div>
 );
 
