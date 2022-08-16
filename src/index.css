@@ -247,3 +247,7 @@ appcues-container:not(.fullscreen)[data-pattern-type='shorty'][data-position^='b
 #quantitative-question-text {
   border: 5px solid black;
 }
+
+#list {
+  text-decoration: none;
+}
