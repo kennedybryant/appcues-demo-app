@@ -1,5 +1,4 @@
 import React from "react";
-import squirrel from "./resources/squirrel.jpg"
 import winterTree from  "./resources/winter-tree.jpg"
 
 /* 
