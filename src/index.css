@@ -16,7 +16,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  background-color: rgb(46, 67, 85);
+  background-color: #302272;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -99,7 +99,7 @@ img {
 /* Main app styling */
 
 .app-content {
-  background-color: rgb(169, 203, 226);
+  background-color: #FFADD5;
   width: calc(70% - 75px);
   padding: 10px;
   color:rgb(0, 8, 63);
@@ -113,11 +113,12 @@ img {
   padding: 5px 20px;
   font-size: 14px;
   font-weight: 700;
-  background-color: rgb(222, 222, 249);
+  background-color: #A63C9D;
+  color:#fff;
 }
 
 .app-content button:hover {
-  background-color: rgb(205, 205, 254);
+  background-color: #FB5CCD;
 }
 
 .app-content p {
@@ -169,7 +170,7 @@ img {
 }
 
 #toolbar button {
-  background-color: rgb(16, 140, 197);
+  background-color: #A63C9D;
   color: #fff;
   font-weight: 700;
   margin: 5px 0;
@@ -214,6 +215,7 @@ img {
   border-radius: 5px;
   height: 85%;
   overflow: scroll;
+  margin-top: 2.5%;
 }
 
 #events-log li {
@@ -221,11 +223,11 @@ img {
   font-weight: 700;
   padding-top: 5px;
   /* color: #d3f9d3; */
-  color: #FFB000;
+  color: #AE50CB;
 }
 
 #events-log p {
-  color: #66FF66;
+  color: #FB5CCD;
   margin-left: 5px;
 }
 
