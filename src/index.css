@@ -242,6 +242,10 @@ appcues-container:not(.fullscreen)[data-pattern-type='shorty'][data-position^='b
   list-style-position: inside;
 }
 
+.appcues-widget-icon:after {
+  background-color: #FB5CCD;
+}
+
 .appcues-nps{
   border: 5px solid black;
 }
