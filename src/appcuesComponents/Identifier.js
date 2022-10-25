@@ -12,7 +12,7 @@ const identifyUser = () => {
 
   newId.value = ''; // resets text input field
 }
-
+window.Appcues.track(identifyUser);
 export default function AppcuesIdentifier() {
 
     return (
