@@ -11,6 +11,15 @@ const identifyUser = () => {
   window.Appcues.identify(newId.value); // identifies user with new value
 
   newId.value = ''; // resets text input field
+
+  window.Appcues.track('clicked login')
+  
+}
+const logOut = () => {
+ 
+
+  window.Appcues.track('logged out')
+  
 }
 window.Appcues.track(identifyUser);
 export default function AppcuesIdentifier() {
@@ -20,6 +29,7 @@ export default function AppcuesIdentifier() {
           <h2>Enter test user ID</h2>
             <input id="input-id-field" type="text"/>
             <button onClick={identifyUser}>Log me in</button>
+            <button onClick={logOut}>Log me out</button>
         </div>
     )
 }

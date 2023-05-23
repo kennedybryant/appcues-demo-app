@@ -28,6 +28,7 @@ const App = () => {
     signupDate: currentTime,
     testProp: null
   })
+window.mixpanel.identify(userId)
 
   window.Appcues.on("all", function(name, payload) {
     // console.log(name);     // uncomment these two lines if you'd like to
@@ -40,7 +41,13 @@ const App = () => {
     position: "right"
   })
   
-  window.Appcues.track("kennedys event")
+  window.Appcues.track("kennedys event",{
+    color: "red",
+    buttonText: "Get Started"
+  },
+
+  
+);
 
   return ( 
     <BrowserRouter> 
