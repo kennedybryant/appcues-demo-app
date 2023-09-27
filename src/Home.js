@@ -12,9 +12,6 @@ const Home = () => {
       <h1>Welcome to Kennedy's test application</h1>
       <h2>I'm glad you're here</h2>
       <img src={winterTree} alt="a tree covered in snow"></img>
-      <app-new-appcbu>
-        <div className="message1">This is a div</div>
-      </app-new-appcbu>
     </div>
   );
 };
