@@ -12,6 +12,7 @@ like Appcues.on so that they will be called every time the page loads.
 */
 
 const App = () => {
+  
   if (!window.localStorage.currentUser) { // persists the current user across page refresh
     window.localStorage.setItem("currentUser", "testUser"); // if no current user, set userID to "testUser"
   }
@@ -27,12 +28,12 @@ const App = () => {
     role: "tester",
     signupDate: currentTime,
     testProp: null
-  })
-window.mixpanel.identify(userId)
+  });
+ window.mixpanel.identify(userId)
 
   window.Appcues.on("all", function(name, payload) {
-    // console.log(name);     // uncomment these two lines if you'd like to
-    // console.log(payload);  // log all events into the dev tools console
+    console.log(name);     // uncomment these two lines if you'd like to
+    console.log(payload);  // log all events into the dev tools console
 
     logEvents(name, payload); // adds events into the event log on the page
   })
